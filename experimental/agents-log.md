@@ -30,6 +30,28 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-05 - F1 extension full-orbit toy scan
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/scripts/verify_f1_extension_full_orbit_scan.py`;
+  `experimental/data/certificates/f1-extension-full-orbit-scan/f1_extension_full_orbit_scan.json`;
+  `experimental/notes/f1/f1_extension_full_orbit_scan.md`;
+  `experimental/agents-log.md`.
+- **Status:** EXPERIMENTAL / AUDIT.
+- **What is being added:** A bounded exact support-wise MCA scan for tiny
+  tower analogues `F_{p^e}/F_p`, aimed at the `K=F` full-orbit branch of the
+  frontier-adjacent `paid_extension` cell.  The packet records minimal-field
+  degree counts for deterministic `F`-valued candidate pairs and a Frobenius
+  closure diagnostic for full-degree bad slopes.
+- **How it is useful:** It supplies a concrete falsifier-shaped signal for the
+  extension-cell program: the quartic `F_7^4/F_7` pole-conjugate-pair row has
+  14 raw fixed-line full-degree bad slopes (`14 >= p`).  The responsible bad-slope set is
+  not Frobenius-closed, so this is not a paid-extension counterexample, but it
+  identifies the next Galois-packaging target for the descended-cycle inventory.
+- **What to do next:** Convert the `pole_conjugate_pair` signal into descended
+  cycle data and check whether it collapses into base/tower-paid strata or
+  yields an orbit-closed `K=F` positive-dimensional branch.
+
 ### 2026-07-05 - Proximity Prize status memo for v12/v13/v14 picture
 
 - **Agent/model:** Maintainer-added status memo reviewed and integrated by

@@ -1,0 +1,3194 @@
+{
+  "non_claims": [
+    "does not construct the descended-cycle classification inventory",
+    "does not classify all F-valued pairs",
+    "does not pay the frontier paid_extension cell",
+    "does not prove the adjacent safe upper ledger"
+  ],
+  "rows": [
+    {
+      "extension_degree": 4,
+      "p": 2,
+      "reason": "F_p^* has order <= 1, so there is no rate-1/2 smooth multiplicative toy row",
+      "status": "SKIPPED_NO_NONTRIVIAL_MULTIPLICATIVE_DOMAIN"
+    },
+    {
+      "agreement": 2,
+      "candidate_count": 8,
+      "candidates": [
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p3_e4_alpha0_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                0,
+                2,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    0,
+                    2,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p3_e4_alpha0_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p3_e4_alpha0_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                2,
+                0,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p3_e4_alpha0_mixed_quadratic",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p3_e4_alpha1_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                2,
+                0,
+                1,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    0,
+                    1,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p3_e4_alpha1_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p3_e4_alpha1_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                2,
+                0,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    2,
+                    0,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p3_e4_alpha1_mixed_quadratic",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        }
+      ],
+      "domain": "F_p^*",
+      "extension_degree": 4,
+      "field_size": 81,
+      "irreducible_modulus_coefficients_low_to_high": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "k": 1,
+      "max_full_orbit_bad_slopes": 1,
+      "max_full_orbit_exceeds_one_orbit": false,
+      "max_total_bad_slopes": 1,
+      "n": 2,
+      "p": 3,
+      "status": "PASS"
+    },
+    {
+      "agreement": 3,
+      "candidate_count": 8,
+      "candidates": [
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p5_e4_alpha0_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                0,
+                4,
+                4
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    0,
+                    4,
+                    4
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p5_e4_alpha0_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                4
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    4
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p5_e4_alpha0_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                1,
+                1,
+                3
+              ],
+              "support_base_values": [
+                1,
+                3,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                2,
+                4,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                2,
+                4,
+                3,
+                2
+              ],
+              "support_base_values": [
+                2,
+                3,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                3,
+                2,
+                3,
+                4
+              ],
+              "support_base_values": [
+                1,
+                2,
+                4
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    1,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    2,
+                    4,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    4,
+                    3,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    2,
+                    3,
+                    4
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 4
+          },
+          "full_orbit_bad_slopes": 4,
+          "full_orbit_divisible": true,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 4
+          },
+          "total_bad_slopes": 4
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p5_e4_alpha0_mixed_quadratic",
+          "examples": [],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": true,
+            "orbits": [],
+            "touched_full_orbits": 0
+          },
+          "full_orbit_bad_slopes": 0,
+          "full_orbit_divisible": true,
+          "g_is_codeword": true,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 0
+          },
+          "total_bad_slopes": 0
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p5_e4_alpha1_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                3,
+                0,
+                2,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    0,
+                    2,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p5_e4_alpha1_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                3
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p5_e4_alpha1_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                1,
+                1,
+                3
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                2,
+                4,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                2,
+                4,
+                3,
+                2
+              ],
+              "support_base_values": [
+                1,
+                3,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                3,
+                2,
+                3,
+                4
+              ],
+              "support_base_values": [
+                2,
+                3,
+                4
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    1,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    2,
+                    4,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    4,
+                    3,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    2,
+                    3,
+                    4
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 4
+          },
+          "full_orbit_bad_slopes": 4,
+          "full_orbit_divisible": true,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 4
+          },
+          "total_bad_slopes": 4
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p5_e4_alpha1_mixed_quadratic",
+          "examples": [],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": true,
+            "orbits": [],
+            "touched_full_orbits": 0
+          },
+          "full_orbit_bad_slopes": 0,
+          "full_orbit_divisible": true,
+          "g_is_codeword": true,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 0
+          },
+          "total_bad_slopes": 0
+        }
+      ],
+      "domain": "F_p^*",
+      "extension_degree": 4,
+      "field_size": 625,
+      "irreducible_modulus_coefficients_low_to_high": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "k": 2,
+      "max_full_orbit_bad_slopes": 4,
+      "max_full_orbit_exceeds_one_orbit": false,
+      "max_total_bad_slopes": 4,
+      "n": 4,
+      "p": 5,
+      "status": "PASS"
+    },
+    {
+      "agreement": 4,
+      "candidate_count": 8,
+      "candidates": [
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p7_e4_alpha0_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                1,
+                0,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "support_size": 4
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    1,
+                    0,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p7_e4_alpha0_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                6
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "support_size": 4
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    6
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p7_e4_alpha0_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                6
+              ],
+              "support_base_values": [
+                1,
+                2,
+                4,
+                6
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                6,
+                0,
+                0
+              ],
+              "support_base_values": [
+                2,
+                3,
+                5,
+                6
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                6,
+                2,
+                3
+              ],
+              "support_base_values": [
+                1,
+                4,
+                5,
+                6
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                6,
+                5,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3,
+                5
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                4,
+                4,
+                1
+              ],
+              "support_base_values": [
+                1,
+                3,
+                4,
+                6
+              ],
+              "support_size": 4
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    2,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    5,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    4,
+                    4,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    3,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    4,
+                    6,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    1,
+                    3,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    3,
+                    4,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    1,
+                    4,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    1,
+                    6,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    2,
+                    0,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    2,
+                    3,
+                    6
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_orbit_bad_slopes": 14,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p7_e4_alpha0_mixed_quadratic",
+          "examples": [],
+          "f_is_codeword": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": true,
+            "orbits": [],
+            "touched_full_orbits": 0
+          },
+          "full_orbit_bad_slopes": 0,
+          "full_orbit_divisible": true,
+          "g_is_codeword": true,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 0
+          },
+          "total_bad_slopes": 0
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p7_e4_alpha1_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                4,
+                4,
+                0,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "support_size": 4
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    4,
+                    0,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p7_e4_alpha1_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                5
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "support_size": 4
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    5
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p7_e4_alpha1_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                6
+              ],
+              "support_base_values": [
+                1,
+                2,
+                4,
+                5
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                1,
+                1,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2,
+                4,
+                6
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                6,
+                0,
+                0
+              ],
+              "support_base_values": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                6,
+                2,
+                3
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3,
+                5
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                6,
+                5,
+                0
+              ],
+              "support_base_values": [
+                2,
+                3,
+                4,
+                6
+              ],
+              "support_size": 4
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                4,
+                4,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2,
+                5,
+                6
+              ],
+              "support_size": 4
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    2,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    5,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    4,
+                    4,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    3,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    4,
+                    6,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    1,
+                    3,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    3,
+                    4,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    1,
+                    4,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    1,
+                    6,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    2,
+                    0,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    2,
+                    3,
+                    6
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_orbit_bad_slopes": 14,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p7_e4_alpha1_mixed_quadratic",
+          "examples": [],
+          "f_is_codeword": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": true,
+            "orbits": [],
+            "touched_full_orbits": 0
+          },
+          "full_orbit_bad_slopes": 0,
+          "full_orbit_divisible": true,
+          "g_is_codeword": true,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "4": 0
+          },
+          "total_bad_slopes": 0
+        }
+      ],
+      "domain": "F_p^*",
+      "extension_degree": 4,
+      "field_size": 2401,
+      "irreducible_modulus_coefficients_low_to_high": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "k": 3,
+      "max_full_orbit_bad_slopes": 14,
+      "max_full_orbit_exceeds_one_orbit": true,
+      "max_total_bad_slopes": 15,
+      "n": 6,
+      "p": 7,
+      "status": "PASS"
+    },
+    {
+      "agreement": 2,
+      "candidate_count": 8,
+      "candidates": [
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p3_e6_alpha0_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                2,
+                2,
+                2,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    2,
+                    2,
+                    2,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p3_e6_alpha0_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p3_e6_alpha0_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                2,
+                1,
+                0,
+                2,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    2,
+                    1,
+                    0,
+                    2,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p3_e6_alpha0_mixed_quadratic",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p3_e6_alpha1_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p3_e6_alpha1_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p3_e6_alpha1_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                2,
+                1,
+                0,
+                2,
+                0
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    2,
+                    1,
+                    0,
+                    2,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p3_e6_alpha1_mixed_quadratic",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "support_base_values": [
+                1,
+                2
+              ],
+              "support_size": 2
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        }
+      ],
+      "domain": "F_p^*",
+      "extension_degree": 6,
+      "field_size": 729,
+      "irreducible_modulus_coefficients_low_to_high": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "k": 1,
+      "max_full_orbit_bad_slopes": 1,
+      "max_full_orbit_exceeds_one_orbit": false,
+      "max_total_bad_slopes": 1,
+      "n": 2,
+      "p": 3,
+      "status": "PASS"
+    },
+    {
+      "agreement": 3,
+      "candidate_count": 8,
+      "candidates": [
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p5_e6_alpha0_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                1,
+                1,
+                0,
+                4,
+                4,
+                4
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    1,
+                    1,
+                    0,
+                    4,
+                    4,
+                    4
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p5_e6_alpha0_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                4
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    4
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p5_e6_alpha0_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                1,
+                4,
+                2,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                3,
+                1,
+                2,
+                1,
+                1,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                3,
+                3,
+                3,
+                1,
+                1,
+                4
+              ],
+              "support_base_values": [
+                2,
+                3,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                4,
+                2,
+                1,
+                0,
+                4,
+                3
+              ],
+              "support_base_values": [
+                1,
+                3,
+                4
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    1,
+                    4,
+                    2,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    3,
+                    1,
+                    2,
+                    1,
+                    1,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    4,
+                    2,
+                    1,
+                    0,
+                    4,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 4
+          },
+          "full_orbit_bad_slopes": 4,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 4
+          },
+          "total_bad_slopes": 4
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "case": "p5_e6_alpha0_mixed_quadratic",
+          "examples": [],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": true,
+            "orbits": [],
+            "touched_full_orbits": 0
+          },
+          "full_orbit_bad_slopes": 0,
+          "full_orbit_divisible": true,
+          "g_is_codeword": true,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 0
+          },
+          "total_bad_slopes": 0
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p5_e6_alpha1_pole_const_linear",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                3,
+                3,
+                0,
+                2,
+                2,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    3,
+                    3,
+                    0,
+                    2,
+                    2,
+                    2
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_const_linear",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p5_e6_alpha1_pole_alpha_const",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                3
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 1
+          },
+          "full_orbit_bad_slopes": 1,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_alpha_const",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 1
+          },
+          "total_bad_slopes": 1
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p5_e6_alpha1_pole_conjugate_pair",
+          "examples": [
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                0,
+                0,
+                1,
+                4,
+                2,
+                2
+              ],
+              "support_base_values": [
+                1,
+                2,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                3,
+                1,
+                2,
+                1,
+                1,
+                2
+              ],
+              "support_base_values": [
+                2,
+                3,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                3,
+                3,
+                3,
+                1,
+                1,
+                4
+              ],
+              "support_base_values": [
+                1,
+                3,
+                4
+              ],
+              "support_size": 3
+            },
+            {
+              "f_good": false,
+              "g_good": false,
+              "slope": [
+                4,
+                2,
+                1,
+                0,
+                4,
+                3
+              ],
+              "support_base_values": [
+                1,
+                2,
+                3
+              ],
+              "support_size": 3
+            }
+          ],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    0,
+                    0,
+                    1,
+                    4,
+                    2,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    3,
+                    1,
+                    2,
+                    1,
+                    1,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 5,
+                "present": [
+                  [
+                    4,
+                    2,
+                    1,
+                    0,
+                    4,
+                    3
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 4
+          },
+          "full_orbit_bad_slopes": 4,
+          "full_orbit_divisible": false,
+          "g_is_codeword": false,
+          "kind": "pole_conjugate_pair",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 4
+          },
+          "total_bad_slopes": 4
+        },
+        {
+          "alpha": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "case": "p5_e6_alpha1_mixed_quadratic",
+          "examples": [],
+          "f_is_codeword": false,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": true,
+            "orbits": [],
+            "touched_full_orbits": 0
+          },
+          "full_orbit_bad_slopes": 0,
+          "full_orbit_divisible": true,
+          "g_is_codeword": true,
+          "kind": "mixed_quadratic",
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "6": 0
+          },
+          "total_bad_slopes": 0
+        }
+      ],
+      "domain": "F_p^*",
+      "extension_degree": 6,
+      "field_size": 15625,
+      "irreducible_modulus_coefficients_low_to_high": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "k": 2,
+      "max_full_orbit_bad_slopes": 4,
+      "max_full_orbit_exceeds_one_orbit": false,
+      "max_total_bad_slopes": 4,
+      "n": 4,
+      "p": 5,
+      "status": "PASS"
+    }
+  ],
+  "scan_scope": "exact support-wise MCA scan for deterministic F-valued candidate families on tiny tower rows F_{p^e}/F_p with D=F_p^*",
+  "schema": "f1-extension-full-orbit-scan-v1",
+  "status": "EXPERIMENTAL_AUDIT",
+  "summary": {
+    "any_raw_fixed_line_p_scale_signal": true,
+    "max_full_orbit_bad_slopes": 14,
+    "p_scale_signal_rows": [
+      {
+        "all_responsible_cases_frobenius_closed": false,
+        "extension_degree": 4,
+        "max_full_orbit_bad_slopes": 14,
+        "p": 7,
+        "responsible_cases": [
+          "p7_e4_alpha0_pole_conjugate_pair",
+          "p7_e4_alpha1_pole_conjugate_pair"
+        ]
+      }
+    ],
+    "reading": "A raw fixed-line p-scale K=F signal appears in the quartic p=7 pole-conjugate-pair family.  The responsible fixed-line bad slope set is not Frobenius-closed, so this is a falsifier-shaped extension signal, not yet a descended-cycle classification counterexample or an extension-cell theorem.",
+    "scanned_rows": 5,
+    "skipped_rows": 1
+  },
+  "upstream_target": "frontier paid_extension K=F full-orbit branch; see frontier_extension_cell_targets_v1"
+}
