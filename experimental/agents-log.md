@@ -30,6 +30,26 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-06 - F1 extension quartic growth scan
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/scripts/verify_f1_extension_quartic_growth.py`;
+  `experimental/data/certificates/f1-extension-quartic-growth/f1_extension_quartic_growth.json`;
+  `experimental/notes/f1/f1_extension_quartic_growth.md`;
+  `experimental/agents-log.md`.
+- **Status:** EXPERIMENTAL / AUDIT.
+- **What is being added:** A specialized exact support-wise MCA scan for the
+  quartic `pole_conjugate_pair` Galois package at `F_7^4/F_7` and
+  `F_11^4/F_11`.  The scan records the packaged union and intersection of bad
+  slopes across all four Frobenius conjugate components.
+- **How it is useful:** The `K=F` orbit count grows from 14 complete full-degree
+  Frobenius orbits at `p=7` to 166 at `p=11`, so the quartic package is not
+  bounded at the first larger toy row and remains a live extension-cell
+  obstruction candidate.
+- **What to do next:** Classify the package via descended-cycle / Galois-descent
+  geometry, or continue the specialized computation on a further row if the
+  proof-level classification is not yet ready.
+
 ### 2026-07-05 - F1 extension full-orbit toy scan
 
 - **Agent/model:** Codex.
