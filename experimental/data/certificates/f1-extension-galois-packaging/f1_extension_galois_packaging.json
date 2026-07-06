@@ -1,0 +1,2459 @@
+{
+  "cases": [
+    {
+      "agreement": 4,
+      "alpha": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "case": "F7_e4_alpha0_pole_conjugate_pair_galois_package",
+      "classification": {
+        "collapses_to_base_or_tower_paid_strata": false,
+        "complete_K_eq_F_orbits": 14,
+        "inventory_reading": "The Galois package does not collapse to paid base/tower strata: the union carries 14 complete full-degree Frobenius orbits (56 K=F slopes). This is an orbit-closed K=F inventory candidate for the extension-cell branch, still at toy scale.",
+        "orbit_closed_K_eq_F_inventory_candidate": true,
+        "raw_fixed_line_signal_was_not_orbit_closed": true
+      },
+      "component_reports": [
+        {
+          "component": 0,
+          "equals_frobenius_conjugate_of_component_0": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    2,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    5,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    4,
+                    4,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    3,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    4,
+                    6,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    1,
+                    3,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    3,
+                    4,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    1,
+                    4,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    1,
+                    6,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    2,
+                    0,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    2,
+                    3,
+                    6
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_degree_bad_slopes": 14,
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        },
+        {
+          "component": 1,
+          "equals_frobenius_conjugate_of_component_0": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    2,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    5,
+                    2,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    4,
+                    4,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    5,
+                    4,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    6,
+                    2,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    3,
+                    0,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    3,
+                    3,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    5,
+                    6,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    0,
+                    3,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    2,
+                    3,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    3,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    1,
+                    6,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    5,
+                    0,
+                    6
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_degree_bad_slopes": 14,
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        },
+        {
+          "component": 2,
+          "equals_frobenius_conjugate_of_component_0": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    5,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    4,
+                    6,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    4,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    3,
+                    5,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    4,
+                    4,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    6,
+                    6,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    0,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    1,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    5,
+                    2,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    6,
+                    1,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    6,
+                    3,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    1,
+                    0,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    3,
+                    5,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    5,
+                    0,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_degree_bad_slopes": 14,
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        },
+        {
+          "component": 3,
+          "equals_frobenius_conjugate_of_component_0": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    2,
+                    2,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    3,
+                    1,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    6,
+                    3,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    2,
+                    0,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    4,
+                    6,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    5,
+                    1,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    1,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    2,
+                    5,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    0,
+                    0,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    2,
+                    2,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    4,
+                    5,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    0,
+                    2,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    4,
+                    4,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    6,
+                    1,
+                    5
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_degree_bad_slopes": 14,
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        }
+      ],
+      "extension_degree": 4,
+      "intersection": {
+        "frobenius_orbit_diagnostic": {
+          "complete_full_orbits": 0,
+          "full_orbit_closed_for_fixed_line": true,
+          "orbits": [],
+          "touched_full_orbits": 0
+        },
+        "full_degree_bad_slopes": 0,
+        "minimal_field_degree_counts": {
+          "1": 0,
+          "2": 0,
+          "4": 0
+        },
+        "total_bad_slopes": 0
+      },
+      "k": 3,
+      "n": 6,
+      "p": 7,
+      "union": {
+        "frobenius_orbit_diagnostic": {
+          "complete_full_orbits": 14,
+          "full_orbit_closed_for_fixed_line": true,
+          "orbits": [
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  2,
+                  0,
+                  6,
+                  6
+                ],
+                [
+                  2,
+                  6,
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  1,
+                  6,
+                  6
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  0,
+                  6,
+                  6
+                ],
+                [
+                  0,
+                  6,
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  1,
+                  6,
+                  6
+                ],
+                [
+                  5,
+                  0,
+                  0,
+                  6
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  4,
+                  4,
+                  4
+                ],
+                [
+                  2,
+                  3,
+                  1,
+                  6
+                ],
+                [
+                  4,
+                  6,
+                  1,
+                  4
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  4,
+                  6,
+                  3
+                ],
+                [
+                  6,
+                  3,
+                  5,
+                  5
+                ],
+                [
+                  6,
+                  6,
+                  1,
+                  5
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  1,
+                  5,
+                  3
+                ],
+                [
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  6,
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  1,
+                  6,
+                  0
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  4,
+                  6,
+                  4
+                ],
+                [
+                  0,
+                  5,
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  3,
+                  6,
+                  6
+                ],
+                [
+                  3,
+                  2,
+                  0,
+                  5
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  6,
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5,
+                  1,
+                  1
+                ],
+                [
+                  5,
+                  2,
+                  3,
+                  0
+                ],
+                [
+                  6,
+                  1,
+                  6,
+                  1
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  6,
+                  5,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  2,
+                  5
+                ],
+                [
+                  6,
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  6,
+                  5,
+                  0,
+                  6
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  1,
+                  3,
+                  5,
+                  3
+                ],
+                [
+                  1,
+                  4,
+                  4,
+                  1
+                ],
+                [
+                  3,
+                  3,
+                  0,
+                  6
+                ],
+                [
+                  5,
+                  4,
+                  5,
+                  4
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  1,
+                  4,
+                  4,
+                  0
+                ],
+                [
+                  2,
+                  5,
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  3,
+                  4,
+                  2
+                ],
+                [
+                  5,
+                  2,
+                  2,
+                  2
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  1,
+                  6,
+                  6,
+                  4
+                ],
+                [
+                  3,
+                  1,
+                  3,
+                  0
+                ],
+                [
+                  4,
+                  0,
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  0,
+                  2,
+                  5
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  3,
+                  3,
+                  3,
+                  1
+                ],
+                [
+                  4,
+                  6,
+                  3,
+                  2
+                ],
+                [
+                  5,
+                  1,
+                  4,
+                  5
+                ],
+                [
+                  6,
+                  4,
+                  4,
+                  6
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  3,
+                  4,
+                  6,
+                  4
+                ],
+                [
+                  3,
+                  5,
+                  2,
+                  6
+                ],
+                [
+                  5,
+                  3,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  2,
+                  0,
+                  5
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  3,
+                  5,
+                  6,
+                  1
+                ],
+                [
+                  4,
+                  2,
+                  5,
+                  0
+                ],
+                [
+                  6,
+                  2,
+                  3,
+                  6
+                ],
+                [
+                  6,
+                  5,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "touched_full_orbits": 14
+        },
+        "full_degree_bad_slopes": 56,
+        "minimal_field_degree_counts": {
+          "1": 0,
+          "2": 2,
+          "4": 56
+        },
+        "total_bad_slopes": 58
+      }
+    },
+    {
+      "agreement": 4,
+      "alpha": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "case": "F7_e4_alpha1_pole_conjugate_pair_galois_package",
+      "classification": {
+        "collapses_to_base_or_tower_paid_strata": false,
+        "complete_K_eq_F_orbits": 14,
+        "inventory_reading": "The Galois package does not collapse to paid base/tower strata: the union carries 14 complete full-degree Frobenius orbits (56 K=F slopes). This is an orbit-closed K=F inventory candidate for the extension-cell branch, still at toy scale.",
+        "orbit_closed_K_eq_F_inventory_candidate": true,
+        "raw_fixed_line_signal_was_not_orbit_closed": true
+      },
+      "component_reports": [
+        {
+          "component": 0,
+          "equals_frobenius_conjugate_of_component_0": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    0,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    1,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    0,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    2,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    5,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    4,
+                    4,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    3,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    4,
+                    6,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    1,
+                    3,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    3,
+                    4,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    1,
+                    4,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    1,
+                    6,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    2,
+                    0,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    2,
+                    3,
+                    6
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_degree_bad_slopes": 14,
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        },
+        {
+          "component": 1,
+          "equals_frobenius_conjugate_of_component_0": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    0,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    2,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    5,
+                    2,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    4,
+                    4,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    5,
+                    4,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    6,
+                    2,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    3,
+                    0,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    3,
+                    3,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    5,
+                    6,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    0,
+                    3,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    2,
+                    3,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    3,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    1,
+                    6,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    5,
+                    0,
+                    6
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_degree_bad_slopes": 14,
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        },
+        {
+          "component": 2,
+          "equals_frobenius_conjugate_of_component_0": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    1,
+                    5,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    4,
+                    6,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    0,
+                    6,
+                    4,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    3,
+                    5,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    4,
+                    4,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    6,
+                    6,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    0,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    1,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    5,
+                    2,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    6,
+                    1,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    6,
+                    3,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    1,
+                    0,
+                    3
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    3,
+                    5,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    5,
+                    0,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_degree_bad_slopes": 14,
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        },
+        {
+          "component": 3,
+          "equals_frobenius_conjugate_of_component_0": true,
+          "frobenius_orbit_diagnostic": {
+            "complete_full_orbits": 0,
+            "full_orbit_closed_for_fixed_line": false,
+            "orbits": [
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    1,
+                    2,
+                    2,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    3,
+                    1,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    2,
+                    6,
+                    3,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    2,
+                    0,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    4,
+                    6,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    3,
+                    5,
+                    1,
+                    1
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    1,
+                    6,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    4,
+                    2,
+                    5,
+                    0
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    0,
+                    0,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    2,
+                    2,
+                    2
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    5,
+                    4,
+                    5,
+                    4
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    0,
+                    2,
+                    5
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    4,
+                    4,
+                    6
+                  ]
+                ]
+              },
+              {
+                "complete": false,
+                "missing_count": 3,
+                "present": [
+                  [
+                    6,
+                    6,
+                    1,
+                    5
+                  ]
+                ]
+              }
+            ],
+            "touched_full_orbits": 14
+          },
+          "full_degree_bad_slopes": 14,
+          "minimal_field_degree_counts": {
+            "1": 0,
+            "2": 1,
+            "4": 14
+          },
+          "total_bad_slopes": 15
+        }
+      ],
+      "extension_degree": 4,
+      "intersection": {
+        "frobenius_orbit_diagnostic": {
+          "complete_full_orbits": 0,
+          "full_orbit_closed_for_fixed_line": true,
+          "orbits": [],
+          "touched_full_orbits": 0
+        },
+        "full_degree_bad_slopes": 0,
+        "minimal_field_degree_counts": {
+          "1": 0,
+          "2": 0,
+          "4": 0
+        },
+        "total_bad_slopes": 0
+      },
+      "k": 3,
+      "n": 6,
+      "p": 7,
+      "union": {
+        "frobenius_orbit_diagnostic": {
+          "complete_full_orbits": 14,
+          "full_orbit_closed_for_fixed_line": true,
+          "orbits": [
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  0,
+                  0,
+                  6
+                ],
+                [
+                  2,
+                  0,
+                  6,
+                  6
+                ],
+                [
+                  2,
+                  6,
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  1,
+                  6,
+                  6
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  0,
+                  6,
+                  6
+                ],
+                [
+                  0,
+                  6,
+                  2,
+                  3
+                ],
+                [
+                  2,
+                  1,
+                  6,
+                  6
+                ],
+                [
+                  5,
+                  0,
+                  0,
+                  6
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  4,
+                  4,
+                  4
+                ],
+                [
+                  2,
+                  3,
+                  1,
+                  6
+                ],
+                [
+                  4,
+                  6,
+                  1,
+                  4
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  1,
+                  2,
+                  1
+                ],
+                [
+                  2,
+                  4,
+                  6,
+                  3
+                ],
+                [
+                  6,
+                  3,
+                  5,
+                  5
+                ],
+                [
+                  6,
+                  6,
+                  1,
+                  5
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  1,
+                  5,
+                  3
+                ],
+                [
+                  0,
+                  6,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  6,
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  1,
+                  6,
+                  0
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  4,
+                  6,
+                  4
+                ],
+                [
+                  0,
+                  5,
+                  2,
+                  6
+                ],
+                [
+                  2,
+                  3,
+                  6,
+                  6
+                ],
+                [
+                  3,
+                  2,
+                  0,
+                  5
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  6,
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5,
+                  1,
+                  1
+                ],
+                [
+                  5,
+                  2,
+                  3,
+                  0
+                ],
+                [
+                  6,
+                  1,
+                  6,
+                  1
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  0,
+                  6,
+                  5,
+                  0
+                ],
+                [
+                  1,
+                  2,
+                  2,
+                  5
+                ],
+                [
+                  6,
+                  1,
+                  0,
+                  3
+                ],
+                [
+                  6,
+                  5,
+                  0,
+                  6
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  1,
+                  3,
+                  5,
+                  3
+                ],
+                [
+                  1,
+                  4,
+                  4,
+                  1
+                ],
+                [
+                  3,
+                  3,
+                  0,
+                  6
+                ],
+                [
+                  5,
+                  4,
+                  5,
+                  4
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  1,
+                  4,
+                  4,
+                  0
+                ],
+                [
+                  2,
+                  5,
+                  4,
+                  3
+                ],
+                [
+                  3,
+                  3,
+                  4,
+                  2
+                ],
+                [
+                  5,
+                  2,
+                  2,
+                  2
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  1,
+                  6,
+                  6,
+                  4
+                ],
+                [
+                  3,
+                  1,
+                  3,
+                  0
+                ],
+                [
+                  4,
+                  0,
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  0,
+                  2,
+                  5
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  3,
+                  3,
+                  3,
+                  1
+                ],
+                [
+                  4,
+                  6,
+                  3,
+                  2
+                ],
+                [
+                  5,
+                  1,
+                  4,
+                  5
+                ],
+                [
+                  6,
+                  4,
+                  4,
+                  6
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  3,
+                  4,
+                  6,
+                  4
+                ],
+                [
+                  3,
+                  5,
+                  2,
+                  6
+                ],
+                [
+                  5,
+                  3,
+                  6,
+                  6
+                ],
+                [
+                  6,
+                  2,
+                  0,
+                  5
+                ]
+              ]
+            },
+            {
+              "complete": true,
+              "missing_count": 0,
+              "present": [
+                [
+                  3,
+                  5,
+                  6,
+                  1
+                ],
+                [
+                  4,
+                  2,
+                  5,
+                  0
+                ],
+                [
+                  6,
+                  2,
+                  3,
+                  6
+                ],
+                [
+                  6,
+                  5,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "touched_full_orbits": 14
+        },
+        "full_degree_bad_slopes": 56,
+        "minimal_field_degree_counts": {
+          "1": 0,
+          "2": 2,
+          "4": 56
+        },
+        "total_bad_slopes": 58
+      }
+    }
+  ],
+  "non_claims": [
+    "does not prove asymptotic growth of the K=F inventory",
+    "does not classify all F-valued pairs",
+    "does not prove the descended-cycle inventory theorem",
+    "does not pay or refute the deployed paid_extension cell"
+  ],
+  "schema": "f1-extension-galois-packaging-v1",
+  "source_packet": "f1-extension-full-orbit-scan-v1",
+  "status": "EXPERIMENTAL_AUDIT",
+  "summary": {
+    "all_cases_are_orbit_closed_K_eq_F_inventory_candidates": true,
+    "all_components_are_frobenius_conjugates": true,
+    "any_case_collapses_to_base_or_tower": false,
+    "cases_checked": 2,
+    "max_complete_K_eq_F_orbits": 14,
+    "max_union_full_degree_bad_slopes": 56,
+    "reading": "The responsible raw fixed-line signal becomes an orbit-closed K=F inventory candidate after Galois packaging: 56 full-degree slopes, arranged as 14 complete Frobenius orbits, for both checked alpha choices. This is toy-scale evidence for the extension-cell blocker, not a deployed counterexample."
+  },
+  "target": "Galois-package the F_7^4/F_7 pole-conjugate-pair signal and decide whether it collapses to base/tower-paid strata."
+}

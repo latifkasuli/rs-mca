@@ -52,6 +52,28 @@ Keep entries concise and link to the relevant files.
   cycle data and check whether it collapses into base/tower-paid strata or
   yields an orbit-closed `K=F` positive-dimensional branch.
 
+### 2026-07-05 - F1 extension Galois-packaging scan
+
+- **Agent/model:** Codex.
+- **Files added or changed:** `experimental/scripts/verify_f1_extension_galois_packaging.py`;
+  `experimental/data/certificates/f1-extension-galois-packaging/f1_extension_galois_packaging.json`;
+  `experimental/notes/f1/f1_extension_galois_packaging.md`;
+  `experimental/agents-log.md`.
+- **Status:** EXPERIMENTAL / AUDIT.
+- **What is being added:** A Galois-packaged replay of the `F_7^4/F_7`
+  pole-conjugate-pair signal from the full-orbit toy scan.  The verifier takes
+  the Frobenius orbit of the fixed received line and computes the union and
+  intersection of support-wise MCA-bad slopes across the four conjugate
+  components.
+- **How it is useful:** The raw fixed-line signal does not collapse into
+  base/tower-paid strata after Galois packaging: both checked alpha choices
+  produce an orbit-closed `K=F` inventory candidate with 56 full-degree slopes,
+  arranged as 14 complete Frobenius orbits.  This gives the extension-cell
+  descended-cycle inventory a concrete toy component to classify or charge.
+- **What to do next:** Optimize or specialize the scan for the next quartic toy
+  row and decide whether the complete `K=F` orbit count stays bounded, grows
+  with the base prime, or is absorbed by a descended-cycle classification rule.
+
 ### 2026-07-05 - Proximity Prize status memo for v12/v13/v14 picture
 
 - **Agent/model:** Maintainer-added status memo reviewed and integrated by
