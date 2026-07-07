@@ -30,6 +30,33 @@ Keep entries concise and link to the relevant files.
 
 ## Entries
 
+### 2026-07-07 - Entropy-inverse Q toy packet
+
+- **Agent/model:** Codex.
+- **Files added or changed:**
+  `experimental/scripts/verify_entropy_inverse_q_toy_packet.py`,
+  `experimental/data/certificates/frontier-adjacent/entropy_inverse_q_toy_packet_v1.json`,
+  `experimental/notes/thresholds/cap25_v13_entropy_inverse_q_toy_packet.md`,
+  `experimental/agents-log.md`.
+- **Status:** EXPERIMENTAL / AUDIT.
+- **What is being added:** Added a replayable exact toy packet for
+  `prob:entropy-inverse-q`: full prefix-fiber distributions on three small
+  smooth-domain rows, the heaviest twist-primitive fibers, and the complete
+  signed-trade populations inside those fibers.  The verifier checks that all
+  trade pairs have the first `w` moments vanishing and records low-support,
+  intersection, and Vandermonde-rank diagnostics.
+- **How it is useful:** Gives the first concrete acid test for the entropy
+  inverse theorem skeleton in `rem:entropy-inverse-skeleton`.  The toy rows
+  exhibit popular twist-primitive fibers and signed trades, but not an automatic
+  low-rank inverse output; this helps focus the missing theorem on the
+  entropy-small-doubling and slice-transfer steps rather than on merely
+  finding pairwise moment cancellations.
+- **What to do next:** If this direction remains live, extend the toy packet
+  from pairwise trades inside one heavy fiber to a bounded entropy/energy
+  diagnostic on the whole population of popular twist-primitive fibers.  Keep it
+  separate from finite adjacent certificates unless constants are made
+  row-sharp.
+
 ### 2026-07-07 - Grande finale logarithmic-moment Q route
 
 - **Agent/model:** Maintainer-added Q/Tao notes integrated by Codex.

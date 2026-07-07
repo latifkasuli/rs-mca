@@ -1,0 +1,640 @@
+{
+  "companion_note": "experimental/notes/thresholds/cap25_v13_entropy_inverse_q_toy_packet.md",
+  "companion_verifier": "experimental/scripts/verify_entropy_inverse_q_toy_packet.py",
+  "mathbank_context": [
+    "Tao-Vu inverse Littlewood-Offord and Green-Ruzsa/Freiman/PFR results are templates for the skeleton.",
+    "The repo's current problem requires entropy/logarithmic-moment scale rather than polynomial concentration."
+  ],
+  "method": {
+    "prefix_model": "power-sum prefix keys (sum x^1, ..., sum x^w) over small prime-field smooth subgroups",
+    "primitive_filter": "twist stabilizer gcd(n,{j: key_j != 0}) equals 1",
+    "rank_proxy": "Vandermonde rank of the union of heavy-fiber support locators at widths w and w+1",
+    "trade_model": "all unordered pairs inside the heaviest twist-primitive fiber; plus=A\\B, minus=B\\A"
+  },
+  "non_claims": [
+    "Does not prove prob:entropy-inverse-q.",
+    "Does not remove every first-match paid cell; primitive means twist-primitive only.",
+    "Does not instantiate deployed frontier-adjacent rows.",
+    "Does not move any MCA or list threshold.",
+    "Does not apply polynomial-scale inverse Littlewood-Offord as a black box."
+  ],
+  "rows": [
+    {
+      "full_fiber_distribution": {
+        "cells_hit": 4881,
+        "count_histogram_sha256": "59fce7333d4f4ca6657eb624584a69e8bfcc9a4918d1cef801964959e42613e7",
+        "gamma2_primitive": 1.1190602094098598,
+        "gamma2_raw": 1.13768748388795,
+        "mean_fiber_size": 2.61958070425402,
+        "prefix_cell_count": 4913,
+        "primitive_cells_hit": 4864,
+        "primitive_count_histogram_sha256": "aefb8f6b400211bdc88fc725b8a6ad4d294470df1653dd73c471d06dccfb6b2e",
+        "primitive_max": {
+          "count": 5,
+          "key": [
+            1,
+            0,
+            2
+          ],
+          "normalized_R": 1.9087024087024087,
+          "twist_stabilizer_size": 1
+        },
+        "raw_max": {
+          "count": 7,
+          "key": [
+            0,
+            1,
+            0
+          ],
+          "normalized_R": 2.672183372183372,
+          "twist_stabilizer_size": 2
+        },
+        "total_supports": 12870
+      },
+      "heavy_primitive_fiber": {
+        "all_supports_sha256": "b2c14239135ede92cfc79087c849ead0132ef120f65b0ffe4444bbedf30c716e",
+        "key": [
+          1,
+          0,
+          2
+        ],
+        "key_moments_verified": true,
+        "support_count": 5,
+        "support_examples_as_domain_indices": [
+          [
+            0,
+            1,
+            2,
+            5,
+            6,
+            8,
+            9,
+            13
+          ],
+          [
+            0,
+            1,
+            3,
+            4,
+            5,
+            8,
+            11,
+            12
+          ],
+          [
+            0,
+            2,
+            3,
+            5,
+            10,
+            12,
+            14,
+            15
+          ],
+          [
+            0,
+            3,
+            4,
+            8,
+            9,
+            10,
+            13,
+            14
+          ],
+          [
+            2,
+            4,
+            6,
+            7,
+            8,
+            9,
+            11,
+            14
+          ]
+        ]
+      },
+      "inverse_skeleton_diagnostics": {
+        "heavy_union_rank_equals_width_w": true,
+        "heavy_union_rank_equals_width_w_plus_1": true,
+        "interpretation": "The heavy twist-primitive fiber gives exact signed trades, but the toy Vandermonde-rank proxy stays full at the measured width; this is evidence for the skeleton objects, not a proof of the entropy inverse theorem.",
+        "low_support_trade_present_at_width_w": false,
+        "popular_primitive_fiber_observed": true
+      },
+      "label": "F17x_16_m8_w3",
+      "parameters": {
+        "domain": "multiplicative_subgroup",
+        "domain_sha256": "c8aa3562cf53e860d2bff96611bbd511190e1ba0d75e502cbab10a106f04248e",
+        "m": 8,
+        "n": 16,
+        "p": 17,
+        "w": 3
+      },
+      "reason": "Poisson-boundary twist-primitive prefix row; small enough to inspect all trades exactly.",
+      "signed_trade_population": {
+        "all_first_w_moments_vanish": true,
+        "distinct_trade_vectors": 10,
+        "duplicate_trade_multiplicity_max": 1,
+        "example_trades": [
+          {
+            "half_weight": 4,
+            "minus_indices": [
+              3,
+              4,
+              11,
+              12
+            ],
+            "plus_indices": [
+              2,
+              6,
+              9,
+              13
+            ]
+          },
+          {
+            "half_weight": 5,
+            "minus_indices": [
+              3,
+              10,
+              12,
+              14,
+              15
+            ],
+            "plus_indices": [
+              1,
+              6,
+              8,
+              9,
+              13
+            ]
+          },
+          {
+            "half_weight": 4,
+            "minus_indices": [
+              3,
+              4,
+              10,
+              14
+            ],
+            "plus_indices": [
+              1,
+              2,
+              5,
+              6
+            ]
+          }
+        ],
+        "half_weight_histogram": {
+          "4": 7,
+          "5": 2,
+          "6": 1
+        },
+        "intersection_size_histogram": {
+          "2": 1,
+          "3": 2,
+          "4": 7
+        },
+        "max_half_weight": 6,
+        "min_half_weight": 4,
+        "min_total_support": 8,
+        "pair_count": 10,
+        "total_support_histogram": {
+          "10": 2,
+          "12": 1,
+          "8": 7
+        },
+        "union_support_size": 16,
+        "union_vandermonde_rank_width_w": 3,
+        "union_vandermonde_rank_width_w_plus_1": 4
+      }
+    },
+    {
+      "full_fiber_distribution": {
+        "cells_hit": 1681,
+        "count_histogram_sha256": "43ead3ab669557f1b5d20ff288dc22eb7686392ce6d4a766c67e1acbcb0af46f",
+        "gamma2_primitive": 0.9794469961272171,
+        "gamma2_raw": 1.0041362613709308,
+        "mean_fiber_size": 109.90838786436645,
+        "prefix_cell_count": 1681,
+        "primitive_cells_hit": 1640,
+        "primitive_count_histogram_sha256": "b9d398ef9779fd4e87eabfd727905cdaadaf3e5187f21c73529450118b2b49ce",
+        "primitive_max": {
+          "count": 133,
+          "key": [
+            3,
+            0
+          ],
+          "normalized_R": 1.2100987248046071,
+          "twist_stabilizer_size": 1
+        },
+        "raw_max": {
+          "count": 133,
+          "key": [
+            3,
+            0
+          ],
+          "normalized_R": 1.2100987248046071,
+          "twist_stabilizer_size": 1
+        },
+        "total_supports": 184756
+      },
+      "heavy_primitive_fiber": {
+        "all_supports_sha256": "b7a7c17ea19ed25eb963d6e239c68eda0c2594abbd1af027f6f289ecf567d4c0",
+        "key": [
+          3,
+          0
+        ],
+        "key_moments_verified": true,
+        "support_count": 133,
+        "support_examples_as_domain_indices": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            11,
+            13,
+            15
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            9,
+            10,
+            11,
+            12
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            6,
+            8,
+            11,
+            14,
+            15,
+            18
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            7,
+            8,
+            11,
+            12,
+            15,
+            19
+          ]
+        ]
+      },
+      "inverse_skeleton_diagnostics": {
+        "heavy_union_rank_equals_width_w": true,
+        "heavy_union_rank_equals_width_w_plus_1": true,
+        "interpretation": "The heavy twist-primitive fiber gives exact signed trades, but the toy Vandermonde-rank proxy stays full at the measured width; this is evidence for the skeleton objects, not a proof of the entropy inverse theorem.",
+        "low_support_trade_present_at_width_w": false,
+        "popular_primitive_fiber_observed": true
+      },
+      "label": "mu20_F41_m10_w2",
+      "parameters": {
+        "domain": "multiplicative_subgroup",
+        "domain_sha256": "93f6b43c3356ce6a8acb5c09848822d41fe0f4e062b62061f57852500a46a906",
+        "m": 10,
+        "n": 20,
+        "p": 41,
+        "w": 2
+      },
+      "reason": "Dense-bulk prefix row with nontrivial twist-primitive heavy fibers.",
+      "signed_trade_population": {
+        "all_first_w_moments_vanish": true,
+        "distinct_trade_vectors": 7468,
+        "duplicate_trade_multiplicity_max": 10,
+        "example_trades": [
+          {
+            "half_weight": 4,
+            "minus_indices": [
+              8,
+              10,
+              12,
+              14
+            ],
+            "plus_indices": [
+              5,
+              11,
+              13,
+              15
+            ]
+          },
+          {
+            "half_weight": 4,
+            "minus_indices": [
+              7,
+              9,
+              10,
+              12
+            ],
+            "plus_indices": [
+              4,
+              6,
+              13,
+              15
+            ]
+          },
+          {
+            "half_weight": 3,
+            "minus_indices": [
+              8,
+              14,
+              18
+            ],
+            "plus_indices": [
+              4,
+              5,
+              13
+            ]
+          }
+        ],
+        "half_weight_histogram": {
+          "3": 779,
+          "4": 2050,
+          "5": 3016,
+          "6": 2168,
+          "7": 625,
+          "8": 140
+        },
+        "intersection_size_histogram": {
+          "2": 140,
+          "3": 625,
+          "4": 2168,
+          "5": 3016,
+          "6": 2050,
+          "7": 779
+        },
+        "max_half_weight": 8,
+        "min_half_weight": 3,
+        "min_total_support": 6,
+        "pair_count": 8778,
+        "total_support_histogram": {
+          "10": 3016,
+          "12": 2168,
+          "14": 625,
+          "16": 140,
+          "6": 779,
+          "8": 2050
+        },
+        "union_support_size": 20,
+        "union_vandermonde_rank_width_w": 2,
+        "union_vandermonde_rank_width_w_plus_1": 3
+      }
+    },
+    {
+      "full_fiber_distribution": {
+        "cells_hit": 9409,
+        "count_histogram_sha256": "2f76d3eb27c5e6f9770d3e7472bd2935ca242afc85d797f643bd0f465ebd977e",
+        "gamma2_primitive": 0.9909355748601585,
+        "gamma2_raw": 1.0013400034334643,
+        "mean_fiber_size": 287.400999043469,
+        "prefix_cell_count": 9409,
+        "primitive_cells_hit": 9312,
+        "primitive_count_histogram_sha256": "84028f38515cb62b4b21bd3e2a8b0c140d6999e6f56d46104b30003d71209430",
+        "primitive_max": {
+          "count": 333,
+          "key": [
+            1,
+            0
+          ],
+          "normalized_R": 1.1586598554225422,
+          "twist_stabilizer_size": 1
+        },
+        "raw_max": {
+          "count": 352,
+          "key": [
+            0,
+            0
+          ],
+          "normalized_R": 1.2247695769031077,
+          "twist_stabilizer_size": 24
+        },
+        "total_supports": 2704156
+      },
+      "heavy_primitive_fiber": {
+        "all_supports_sha256": "986bd07a8ae529158fe782898165b6219cb3f1b49d6ab2332bfbbbc5888c99f0",
+        "key": [
+          1,
+          0
+        ],
+        "key_moments_verified": true,
+        "support_count": 333,
+        "support_examples_as_domain_indices": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            11,
+            16,
+            18,
+            20
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9,
+            11,
+            13,
+            17,
+            18
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            12,
+            14,
+            15,
+            21,
+            23
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            8,
+            9,
+            11,
+            16,
+            19,
+            20,
+            22
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            8,
+            11,
+            13,
+            16,
+            17,
+            18,
+            23
+          ]
+        ]
+      },
+      "inverse_skeleton_diagnostics": {
+        "heavy_union_rank_equals_width_w": true,
+        "heavy_union_rank_equals_width_w_plus_1": true,
+        "interpretation": "The heavy twist-primitive fiber gives exact signed trades, but the toy Vandermonde-rank proxy stays full at the measured width; this is evidence for the skeleton objects, not a proof of the entropy inverse theorem.",
+        "low_support_trade_present_at_width_w": false,
+        "popular_primitive_fiber_observed": true
+      },
+      "label": "mu24_F97_m12_w2",
+      "parameters": {
+        "domain": "multiplicative_subgroup",
+        "domain_sha256": "bed525a20c32cb6c3b4e37526356f49208c83b9773ffe29a1a7f70a9e9eaa2a9",
+        "m": 12,
+        "n": 24,
+        "p": 97,
+        "w": 2
+      },
+      "reason": "Largest default dense-bulk row already used by the Gamma_r packet.",
+      "signed_trade_population": {
+        "all_first_w_moments_vanish": true,
+        "distinct_trade_vectors": 47708,
+        "duplicate_trade_multiplicity_max": 13,
+        "example_trades": [
+          {
+            "half_weight": 4,
+            "minus_indices": [
+              8,
+              9,
+              13,
+              17
+            ],
+            "plus_indices": [
+              5,
+              6,
+              16,
+              20
+            ]
+          },
+          {
+            "half_weight": 6,
+            "minus_indices": [
+              10,
+              12,
+              14,
+              15,
+              21,
+              23
+            ],
+            "plus_indices": [
+              5,
+              6,
+              7,
+              16,
+              18,
+              20
+            ]
+          },
+          {
+            "half_weight": 4,
+            "minus_indices": [
+              8,
+              9,
+              19,
+              22
+            ],
+            "plus_indices": [
+              4,
+              6,
+              7,
+              18
+            ]
+          }
+        ],
+        "half_weight_histogram": {
+          "10": 72,
+          "11": 43,
+          "3": 539,
+          "4": 5759,
+          "5": 12783,
+          "6": 17217,
+          "7": 12763,
+          "8": 5116,
+          "9": 986
+        },
+        "intersection_size_histogram": {
+          "1": 43,
+          "2": 72,
+          "3": 986,
+          "4": 5116,
+          "5": 12763,
+          "6": 17217,
+          "7": 12783,
+          "8": 5759,
+          "9": 539
+        },
+        "max_half_weight": 11,
+        "min_half_weight": 3,
+        "min_total_support": 6,
+        "pair_count": 55278,
+        "total_support_histogram": {
+          "10": 12783,
+          "12": 17217,
+          "14": 12763,
+          "16": 5116,
+          "18": 986,
+          "20": 72,
+          "22": 43,
+          "6": 539,
+          "8": 5759
+        },
+        "union_support_size": 24,
+        "union_vandermonde_rank_width_w": 2,
+        "union_vandermonde_rank_width_w_plus_1": 3
+      }
+    }
+  ],
+  "schema": "entropy-inverse-q-toy-packet/v1",
+  "source_problem": "experimental/grande_finale.tex prob:entropy-inverse-q and rem:entropy-inverse-skeleton",
+  "status": "EXPERIMENTAL / AUDIT",
+  "wall_id": "CAP25-V13-ENTROPY-INVERSE-Q-TOY"
+}
